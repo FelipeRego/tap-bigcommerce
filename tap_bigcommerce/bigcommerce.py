@@ -173,11 +173,11 @@ class Bigcommerce():
 
     base_url = "https://api.bigcommerce.com/stores/"
 
-    results_per_page = 150
+    results_per_page = 250
 
     max_retries = 5
 
-    retry_window = 300
+    retry_window = 100
 
     """
     Mapping to standardize between the two BigCommerce API
