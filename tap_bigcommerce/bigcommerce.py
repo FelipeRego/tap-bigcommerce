@@ -173,7 +173,7 @@ class Bigcommerce():
 
     base_url = "https://api.bigcommerce.com/stores/"
 
-    results_per_page = 500
+    results_per_page = 150
 
     max_retries = 5
 
